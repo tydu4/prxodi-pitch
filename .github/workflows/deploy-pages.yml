@@ -1,10 +1,10 @@
 name: Deploy Nuxt to GitHub Pages
 
 on:
-  push:
-    branches:
-      - main
-      - master
+  # push:
+  #   branches:
+  #     - main
+  #     - master
   workflow_dispatch:
 
 permissions:
