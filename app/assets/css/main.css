@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Sora:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+}
+
+:root {
+  --primary: #0055ff;
+  --secondary: #ff0055;
+  --bg: #ffffff;
+  --bg-surface: #ffffff;
+  --fg: #000000;
+  --accent: var(--primary);
+  --grid-alpha: 0.085;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#__nuxt {
+  margin: 0;
+  min-height: 100%;
+  background-color: var(--bg-surface);
+  color: var(--fg);
+  font-family: 'Sora', 'Segoe UI', sans-serif;
+  overflow-x: hidden;
+}
+
+/* SCROLL SNAP SETUP */
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  line-height: 1.2;
+  text-rendering: geometricPrecision;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg-surface);
+  /* Global Juicy Background */
+  background-image:
+    radial-gradient(
+      circle at 10% 14%,
+      color-mix(in srgb, var(--primary) 26%, transparent) 0%,
+      transparent 36%
+    ),
+    radial-gradient(
+      circle at 90% 24%,
+      color-mix(in srgb, var(--secondary) 26%, transparent) 0%,
+      transparent 34%
+    ),
+    linear-gradient(to right, rgba(0, 0, 0, var(--grid-alpha)) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 0, 0, var(--grid-alpha)) 1px, transparent 1px);
+  background-size: auto, auto, 48px 48px, 48px 48px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Archivo Black', sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+p { margin: 0; }
+a { color: inherit; text-decoration: none; }
+
+::selection {
+  color: #ffffff;
+  background: var(--accent);
+}
+
+/* SLIDE CONTAINER STYLES */
+.slide-container {
+  height: 100vh;
+  width: 100%;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+  overflow: hidden;
+  position: relative;
+}
+
+/* 3D UTILITIES FOR FLIP CARD */
+.perspective-1000 {
+  perspective: 1000px;
+  perspective-origin: center;
+}
+.transform-style-3d {
+  transform-style: preserve-3d;
+  transform-origin: center;
+  will-change: transform;
+}
+.backface-hidden {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* =========================================
+   PRINT / PDF EXPORT STYLES (16:10 FORMAT)
+   ========================================= */
+@media print {
+  @page {
+    /* Формат 16:10 */
+    size: 1920px 1200px; 
+    margin: 0;
+  }
+
+  html, body, #__nuxt {
+    width: 1920px !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: visible !important;
+    background-color: var(--bg-surface) !important;
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Убиваем все анимации GSAP для чистого снимка */
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    opacity: 1 !important; 
+    transform: none !important; 
+  }
+
+  .slide-container {
+    height: 1200px !important; /* Высота под 16:10 */
+    width: 1920px !important;
+    page-break-after: always;
+    break-after: page;
+    position: relative !important;
+    display: flex !important;
+    overflow: hidden !important;
+    scroll-snap-align: none !important;
+  }
+
+  .control-panel,
+  .theme-switcher,
+  .scroll-indicator,
+  .gsap-marker-start,
+  .gsap-marker-end {
+    display: none !important;
+  }
+  
+  .transform-style-3d { transform-style: flat !important; }
+  .rotate-y-180 { transform: none !important; }
+  .backface-hidden { backface-visibility: visible !important; }
+
+  /* Оставляем сочные фоны, но следим, чтобы они были на заднем плане */
+  .logo-cloud, .energy-bg, .slide-breath {
+    z-index: 0 !important;
+  }
+  
+  h1, h2, h3, p, span, div { z-index: auto; }
+  
+  [style*="transform"] { transform: none !important; }
+  [style*="opacity: 0"] { opacity: 1 !important; }
+}
