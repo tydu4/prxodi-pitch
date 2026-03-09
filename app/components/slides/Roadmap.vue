@@ -17,25 +17,25 @@
         <div class="relative z-10 w-1/4 text-center pr-4">
           <div class="w-12 h-12 mx-auto bg-[var(--primary)] rounded-full flex items-center justify-center text-[var(--surface)] text-xl font-bold shadow-[0_0_20px_var(--primary)] mb-4">✓</div>
           <h3 class="text-xl font-black text-[var(--ink)] mb-2">Q1 2026: MVP</h3>
-          <p class="text-sm font-medium text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)]">Разработка парсеров, CustDev, запуск Telegram-ботов.</p>
+          <p class="text-sm font-medium text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)]">Разработка системы парсинга, CustDev, запуск Telegram-ботов.</p>
         </div>
 
         <div class="relative z-10 w-1/4 text-center px-2">
           <div class="w-12 h-12 mx-auto bg-[var(--secondary)] rounded-full flex items-center justify-center text-[var(--surface)] border-4 border-[var(--surface)] text-xl font-bold shadow-[0_0_20px_var(--secondary)] mb-4">🔥</div>
           <h3 class="text-xl font-black text-[var(--ink)] mb-2">Q2 2026: Пилот</h3>
-          <p class="text-sm font-medium text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)]">Запуск в 3 городах-миллионниках. Сбор лояльной аудитории.</p>
+          <p class="text-sm font-medium text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)]">Запуск в Ярославле. Сбор лояльной аудитории.</p>
         </div>
 
         <div class="relative z-10 w-1/4 text-center px-2 opacity-50">
           <div class="w-12 h-12 mx-auto bg-[var(--surface)] rounded-full border-4 border-[color:color-mix(in_srgb,var(--ink)_20%,transparent)] mb-4"></div>
           <h3 class="text-xl font-black text-[var(--ink)] mb-2">Q3 2026: B2B</h3>
-          <p class="text-sm font-medium text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)]">Интеграция эквайринга, личные кабинеты организаторов.</p>
+          <p class="text-sm font-medium text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)]">Интеграция платежей и эквайринга, личные кабинеты организаторов, запуск продаж.</p>
         </div>
 
         <div class="relative z-10 w-1/4 text-center pl-4 opacity-50">
           <div class="w-12 h-12 mx-auto bg-[var(--surface)] rounded-full border-4 border-[color:color-mix(in_srgb,var(--ink)_20%,transparent)] mb-4"></div>
-          <h3 class="text-xl font-black text-[var(--ink)] mb-2">Q4 2026: Scale</h3>
-          <p class="text-sm font-medium text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)]">Масштабирование на всю территорию РФ.</p>
+          <h3 class="text-xl font-black text-[var(--ink)] mb-2">Q4 2026: Масштабирование</h3>
+          <p class="text-sm font-medium text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)]">Расширение на новые города, рост количества пользователей, развитие партнерств</p>
         </div>
       </div>
     </div>
@@ -51,12 +51,12 @@
         
         <div class="flex justify-between px-2">
            <div class="text-left w-1/2">
-              <p class="text-lg font-bold text-[var(--primary)]">Маркетинг и захват рынка</p>
-              <p class="text-sm text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)] font-medium mt-1">Привлечение пользователей в новых регионах.</p>
+              <p class="text-lg font-bold text-[var(--primary)]">Маркетинг и привлечение пользователей</p>
+              <p class="text-sm text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)] font-medium mt-1">Запуск в новых городах, рост аудитории платформы</p>
            </div>
            <div class="text-right w-1/2">
               <p class="text-lg font-bold text-[var(--secondary)]">Доработка AI</p>
-              <p class="text-sm text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)] font-medium mt-1">Обучение нейросети для идеального матчинга.</p>
+              <p class="text-sm text-[color:color-mix(in_srgb,var(--ink)_60%,transparent)] font-medium mt-1">Обучение рекомендательной системы, улучшение сбора событий.</p>
            </div>
         </div>
       </article>

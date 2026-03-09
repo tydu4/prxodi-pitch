@@ -38,7 +38,7 @@
               </div>
               <div>
                 <span class="block text-xl font-bold text-[var(--text-color)]">Комиссия 5-10%</span>
-                <span class="text-lg text-gray-500 font-medium leading-tight">С продажи билетов через встроенный эквайринг.</span>
+                <span class="text-lg text-gray-500 font-medium leading-tight">Продажи через встроенный эквайринг.</span>
               </div>
             </li>
             <li class="revenue-item flex items-start gap-3">
@@ -46,8 +46,8 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
               </div>
               <div>
-                <span class="block text-xl font-bold text-[var(--text-color)]">Direct-маркетинг</span>
-                <span class="text-lg text-gray-500 font-medium leading-tight">Продвижение событий точно в целевые сегменты (по интересам).</span>
+                <span class="block text-xl font-bold text-[var(--text-color)]">Таргетированное продвижение</span>
+                <span class="text-lg text-gray-500 font-medium leading-tight">Продвижение событий по интересам аудитории.</span>
               </div>
             </li>
             <li class="revenue-item flex items-start gap-3">
@@ -55,8 +55,8 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="m19 9-5 5-4-4-3 3"/></svg>
               </div>
               <div>
-                <span class="block text-xl font-bold text-[var(--text-color)]">Платная аналитика</span>
-                <span class="text-lg text-gray-500 font-medium leading-tight">Отчеты по спросу, портрет аудитории и конкуренты.</span>
+                <span class="block text-xl font-bold text-[var(--text-color)]">Аналитика спроса</span>
+                <span class="text-lg text-gray-500 font-medium leading-tight">Отчеты по аудитории, спросу и эффективности событий.</span>
               </div>
             </li>
           </ul>
@@ -83,8 +83,8 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path><line x1="16" y1="8" x2="2" y2="22"></line><line x1="17.5" y1="15" x2="9" y2="15"></line></svg>
               </div>
               <div>
-                <span class="block text-xl font-bold text-[var(--text-color)]">Базовый доступ бесплатен</span>
-                <span class="text-lg text-gray-500 font-medium leading-tight">Основные возможности доступны без оплаты.</span>
+                <span class="block text-xl font-bold text-[var(--text-color)]">Бесплатный базовый доступ</span>
+                <span class="text-lg text-gray-500 font-medium leading-tight">Поиск событий и участие в мероприятиях.</span>
               </div>
             </li>
             <li class="revenue-item flex items-start gap-3">
@@ -92,8 +92,8 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
               </div>
               <div>
-                <span class="block text-xl font-bold text-[var(--text-color)]">Платные функции</span>
-                <span class="text-lg text-gray-500 font-medium leading-tight">Дополнительные функции доступны по платной модели.</span>
+                <span class="block text-xl font-bold text-[var(--text-color)]">Премиум-функции</span>
+                <span class="text-lg text-gray-500 font-medium leading-tight">Расширенный нетворкинг и дополнительные возможности.</span>
               </div>
             </li>
             <li class="revenue-item flex items-start gap-3">
@@ -101,8 +101,8 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
               </div>
               <div>
-                <span class="block text-xl font-bold text-[var(--text-color)]">Премиум-доступ к нетворкингу</span>
-                <span class="text-lg text-gray-500 font-medium leading-tight">Доступ к закрытым чатам.</span>
+                <span class="block text-xl font-bold text-[var(--text-color)]">Закрытые чаты событий</span>
+                <span class="text-lg text-gray-500 font-medium leading-tight">Доступ к сообществу участников.</span>
               </div>
             </li>
           </ul>
@@ -115,7 +115,7 @@
         <div class="bg-white rounded-[22px] p-6 flex items-center justify-between print:bg-white">
           <div>
             <h4 class="text-3xl font-bold text-[var(--text-color)]">Экономика проекта</h4>
-            <p class="text-gray-500">Два потока доходов увеличивают пожизненную ценность клиента</p>
+            <p class="text-gray-500">Два источника дохода увеличивают пожизненную ценность пользователя.</p>
           </div>
           <div class="flex items-center gap-4">
              <div class="text-right">

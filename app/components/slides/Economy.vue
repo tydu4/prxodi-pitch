@@ -12,8 +12,8 @@
           Экономика одной продажи
         </h2>
         <p class="text-[clamp(1.1rem,1.5vw,1.3rem)] font-medium leading-relaxed [color:color-mix(in_srgb,var(--ink)_70%,transparent)]">
-          За счет виральных механик (инвайты в чаты) мы кардинально снижаем стоимость привлечения. <br/><br/>
-          А два потока доходов (комиссия с билета + B2B подписки) позволяют максимизировать LTV каждого пользователя.
+          Виральные механики (чаты участников событий и приглашения друзей) снижают стоимость привлечения пользователей.<br/><br/>
+          Два источника дохода увеличивают LTV: комиссия с билетов и B2B-монетизация организаторов.
         </p>
       </div>
 
@@ -24,7 +24,7 @@
           <div class="space-y-4 font-mono text-lg font-bold">
             <div class="flex justify-between items-end border-b border-[color:color-mix(in_srgb,var(--ink)_10%,transparent)] pb-4">
               <div class="flex flex-col">
-                <span class="text-[color:color-mix(in_srgb,var(--ink)_50%,transparent)] text-sm uppercase tracking-wider">LTV (Выручка за год)</span>
+                <span class="text-[color:color-mix(in_srgb,var(--ink)_50%,transparent)] text-sm uppercase tracking-wider">LTV (Годовая выручка)</span>
                 <span class="text-[var(--ink)] text-2xl font-black mt-1">Средний чек + B2B</span>
               </div>
               <span class="text-[var(--primary)] text-4xl font-black">435 ₽</span>
@@ -35,11 +35,11 @@
               <span>110 ₽</span>
             </div>
             <div class="flex justify-between items-center text-red-500/80">
-              <span>- IT / Себестоимость</span>
+              <span>- IT-инфраструктура / обслуживание</span>
               <span>95 ₽</span>
             </div>
             <div class="flex justify-between items-center text-red-500/80">
-              <span>- Налоги и комиссии</span>
+              <span>- Налоги и платежные комиссии</span>
               <span>42 ₽</span>
             </div>
 

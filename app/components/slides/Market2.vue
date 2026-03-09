@@ -7,7 +7,7 @@
 
     <div class="relative z-10 text-center mb-4 md:mb-6 print:mb-4">
       <h2 class="text-5xl md:text-7xl font-black uppercase tracking-tighter text-[var(--text-color)] mb-2">
-        <span class="opacity-30">ГДЕ</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]">ДЕНЬГИ?</span>
+        <span class="opacity-30">ГДЕ</span> <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]">РЫНОК ДЛЯ РОСТА</span>
       </h2>
       <p class="text-xl md:text-2xl text-gray-500 font-medium">Свободные рынки против перенасыщенных</p>
     </div>
@@ -22,7 +22,7 @@
             <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-red-100 text-red-600 text-xs font-bold uppercase tracking-wider mb-3 lg:mb-4">
               Перенасыщенный рынок
             </div>
-            <h3 class="text-4xl lg:text-5xl font-bold text-gray-800 mb-1 lg:mb-2 leading-none">МСК / СПБ</h3>
+            <h3 class="text-3xl lg:text-4xl font-bold text-gray-800 mb-1 lg:mb-2 leading-none">Москва / Санкт-Петербург</h3>
             <p class="text-gray-500 text-base lg:text-lg">Перенасыщенный рынок</p>
           </div>
 
@@ -34,8 +34,8 @@
 
           <div class="space-y-2 lg:space-y-4 z-10">
             <div class="metric-box">
-              <span class="block text-2xl lg:text-3xl font-bold text-red-600">Высокая стоимость</span>
-              <span class="text-xs text-gray-500 uppercase">Стоимость клиента</span>
+              <span class="block text-2xl lg:text-3xl font-bold text-red-600">высокая стоимость привлечения пользователей</span>
+              <span class="text-xs text-gray-500 uppercase">сильная конкуренция агрегаторов</span>
             </div>
             <div class="metric-box">
               <span class="block text-2xl lg:text-3xl font-bold text-red-600">~20%</span>
@@ -85,10 +85,10 @@
           <div class="relative z-10 flex flex-col justify-between h-full w-full md:w-[55%]">
             <div>
               <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-[var(--primary)] text-xs font-bold uppercase tracking-wider mb-3">
-                Наша Территория
+                Наш фокус
               </div>
-              <h3 class="text-3xl lg:text-4xl font-black text-[var(--text-color)] mb-2 leading-tight">
-                Объем рынка <br/><span class="text-[0.6em] text-gray-500 block mt-1">(TAM / SAM / SOM)</span>
+              <h3 class="text-3xl lg:text-4xl font-black text-[var(--text-color)] mb-1 leading-tight">
+                Региональные города <br/><span class="text-[0.6em] text-gray-500 block mt-1">(TAM / SAM / SOM)</span>
               </h3>
             </div>
 
@@ -98,7 +98,7 @@
                   240 млрд ₽ <span class="text-lg opacity-50 text-gray-400">TAM</span>
                 </p>
                 <p class="text-sm font-medium text-gray-600 mt-1 leading-tight">
-                  Вся индустрия развлечений и покупки билетов в РФ.
+                  Вся индустрия развлечений и покупки билетов в России.
                 </p>
               </div>
               
@@ -107,7 +107,7 @@
                   9 млрд ₽ <span class="text-lg opacity-50 text-gray-400">SAM</span>
                 </p>
                 <p class="text-sm font-medium text-gray-600 mt-1 leading-tight">
-                  Доступный рынок (Регионы и миллионники без МСК/СПБ).
+                  Рынок городских событий в регионах и городах-миллионниках.
                 </p>
               </div>
               
@@ -116,7 +116,7 @@
                   540 млн ₽ <span class="text-lg opacity-50 text-gray-400">SOM</span>
                 </p>
                 <p class="text-sm font-medium text-gray-600 mt-1 leading-tight">
-                  Достижимый объем. То, что мы заработаем за 2 года.
+                  Реалистичный объем, который мы планируем занять за 2 года.
                 </p>
               </div>
             </div>

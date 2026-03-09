@@ -7,11 +7,11 @@
 
     <div class="relative z-10 mx-auto flex h-full w-full max-w-[1200px] flex-col items-center justify-center px-6 text-center md:px-12">
       <h2 class="bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)] bg-clip-text text-[clamp(2.5rem,5vw,5.5rem)] font-black leading-tight text-transparent">
-        Prxodi
+        Приходи
       </h2>
 
       <p class="mt-8 text-[clamp(1.2rem,2vw,2rem)] font-medium [color:color-mix(in_srgb,var(--ink)_86%,transparent)]">
-        Платформа городских событий для активных жителей, которая не только находит лучшие локальные ивенты за 2 минуты, но и подбирает вам компанию на вечер.
+        Платформа городских событий для активных жителей, которая помогает быстро находить мероприятия и компанию на вечер.
       </p>
     </div>
   </section>

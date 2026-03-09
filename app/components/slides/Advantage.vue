@@ -77,7 +77,7 @@ onBeforeUnmount(() => {
     <div class="text-center mb-10 z-10">
       <p class="text-sm uppercase tracking-[0.3em] text-[var(--primary)] font-bold mb-3">Наше главное преимущество</p>
       <h2 class="text-5xl md:text-6xl font-black uppercase tracking-tight text-[var(--text-color)]">
-        ОНИ ЖДУТ. <span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]">МЫ ЗАБИРАЕМ.</span>
+        полный оховат<span class="text-transparent bg-clip-text bg-gradient-to-r from-[var(--primary)] to-[var(--secondary)]">событий.</span>
       </h2>
     </div>
 
@@ -92,9 +92,9 @@ onBeforeUnmount(() => {
           <div class="w-12 h-12 bg-gray-200 rounded-xl flex items-center justify-center mb-4 text-gray-400">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
           </div>
-          <h3 class="text-3xl font-bold text-gray-700">Ручное добавление</h3>
+          <h3 class="text-3xl font-bold text-gray-700">Традиционные афиши</h3>
           <p class="text-lg text-gray-500 mt-2 leading-relaxed">
-            Организаторы должны сами прийти и заполнить форму. Модерация занимает 24 часа. Андеграунд игнорируется.
+            События добавляются вручную организаторами.
           </p>
         </div>
 
@@ -117,16 +117,16 @@ onBeforeUnmount(() => {
 
       <article class="advantage-card relative rounded-3xl border-2 border-[var(--primary)] bg-white overflow-hidden flex flex-col p-6 md:p-8 shadow-[0_20px_50px_rgba(0,0,0,0.1)] z-10">
         <div class="absolute top-6 right-6 px-3 py-1 bg-[var(--primary)] text-white text-sm font-bold uppercase rounded-full shadow-lg animate-pulse">
-          Как мы собираем данные
+          Наш подход
         </div>
 
         <div class="relative z-20 mt-4 rounded-2xl bg-white/88 backdrop-blur-sm p-4 md:p-5 shadow-[0_12px_28px_rgba(0,0,0,0.08)]">
           <div class="w-12 h-12 bg-gradient-to-br from-[var(--primary)] to-[var(--secondary)] rounded-xl flex items-center justify-center mb-4 text-white shadow-lg">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
           </div>
-          <h3 class="text-3xl font-bold text-[var(--text-color)]">Автоматический сбор из соцсетей, сайтов и чатов</h3>
+          <h3 class="text-3xl font-bold text-[var(--text-color)]">Мы собираем события автоматически.</h3>
           <p class="text-lg text-gray-600 mt-2 leading-relaxed font-medium">
-            Мы забираем данные сами. Юзер-боты в закрытых чатах. AI чистит мусор. Публикация в ленте через 5 секунд после анонса.
+            Система мониторит соцсети, сайты и сообщества и публикует новые события почти мгновенно.
           </p>
         </div>
 

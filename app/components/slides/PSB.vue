@@ -169,7 +169,7 @@ onBeforeUnmount(() => {
       </div>
       
       <p class="mt-4 text-lg md:text-xl font-bold text-[var(--psb-ink)] max-w-2xl mx-auto leading-relaxed">
-        Интеграция для бизнеса (Афиша под ключ). Удобное подключение по API и запуск <span class="text-[var(--psb-orange)] underline decoration-4 underline-offset-4">центра городской жизни</span>.
+        Афиша городских событий в <span class="text-[var(--psb-orange)] underline decoration-4 underline-offset-4">экосистеме банка</span>.
       </p>
     </div>
 
@@ -178,11 +178,11 @@ onBeforeUnmount(() => {
       <article class="bento-card lg:col-span-7 group relative overflow-hidden rounded-[24px] bg-[var(--psb-blue)] text-white p-5 md:p-6 shadow-[8px_8px_0px_#003366] hover:translate-y-[-4px] hover:shadow-[12px_12px_0px_#003366] transition-all duration-300">
         <div class="relative z-10">
           <div class="flex justify-between items-start mb-3">
-             <h3 class="text-2xl md:text-3xl font-black uppercase">Свой Продукт</h3>
-             <span class="bg-white/20 px-3 py-1 rounded-full text-xs font-bold uppercase">Решение под вашим брендом</span>
+             <h3 class="text-2xl md:text-3xl font-black uppercase">Собственный продукт</h3>
+             <span class="bg-white/20 px-2 py-1 rounded-full text-xs font-bold uppercase">Под вашим брендом</span>
           </div>
           <p class="text-base md:text-lg font-medium opacity-90 max-w-lg leading-relaxed">
-            Хватит кормить Timepad и отдавать им данные. ПСБ получает собственный инструмент для ивентов. Полный контроль над биллингом, комиссией и аналитикой.
+            Хватит кормить Timepad и отдавать им данные. ПСБ получает собственный инструмент для событий. Полный контроль над биллингом, комиссией и аналитикой.
           </p>
         </div>
         <svg class="absolute bottom-[-15px] right-[-15px] w-32 h-32 text-white opacity-10 rotate-12 group-hover:rotate-0 transition-transform" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zm0 9l2.5-1.25L12 8.5l-2.5 1.25L12 11zm0 2.5l-5-2.5-5 2.5L12 22l10-8.5-5-2.5-5 2.5z"/></svg>
@@ -204,14 +204,15 @@ onBeforeUnmount(() => {
            </div>
         </div>
         <p class="text-xs md:text-sm font-bold text-center mt-3 text-gray-500 bg-gray-50 py-2 rounded-lg">
-          Мы не "льем трафик". Мы находим людей по интересам.
+          Мы находим аудиторию по интересам и активности, а не через массовый трафик.
         </p>
       </article>
 
       <article class="bento-card lg:col-span-4 group relative overflow-hidden rounded-[24px] bg-[var(--psb-ink)] text-white p-5 shadow-xl">
-         <h3 class="text-lg font-bold text-[var(--psb-orange)] mb-2 uppercase tracking-wider">Хозяева Города</h3>
+         <h3 class="text-lg font-bold text-[var(--psb-orange)] mb-2 uppercase tracking-wider">Городская экосистема</h3>
          <p class="text-base leading-relaxed text-gray-300">
-           ПСБ перевез штаб-квартиру в Ярославль. Мы — цифровое ядро этого города. Вместе мы станем 
+           После переезда штаб-квартиры ПСБ в Ярославль
+платформа может стать
            <span class="text-white font-bold underline decoration-[var(--psb-orange)]">Главным Приложением</span> 
            в телефоне каждого жителя.
          </p>
@@ -225,7 +226,7 @@ onBeforeUnmount(() => {
          <div class="relative z-10 pr-2 md:pr-4">
             <h3 class="text-2xl md:text-3xl font-black text-[var(--psb-ink)] mb-1 uppercase">Готовый Пилот</h3>
             <p class="text-gray-600 text-sm md:text-base font-medium max-w-md">
-              Модуль готов к встройке в Super-App. Повышаем удержание пользователей +15% и ежедневную активность.
+              Проект готов к пилоту внутри экосистемы банка
             </p>
             <button class="mt-3 bg-[var(--psb-blue)] text-white px-5 py-1.5 rounded-full font-bold text-sm md:text-base uppercase tracking-widest hover:bg-[var(--psb-orange)] transition-colors shadow-lg">
                Запустить тест
